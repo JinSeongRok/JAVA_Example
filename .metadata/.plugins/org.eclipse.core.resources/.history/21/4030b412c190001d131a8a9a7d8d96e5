@@ -1,0 +1,15 @@
+
+public class Student {
+	String name = "¿Ã∏ß : ";
+	int assigmentsScore;
+	int examScore;
+	
+	Student(){
+		
+		
+		
+	}
+	
+	
+	
+}

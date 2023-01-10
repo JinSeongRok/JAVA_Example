@@ -1,0 +1,20 @@
+
+public class Student {
+	String name ;
+	int assigmentsScore ;
+	int examScore;
+	
+	Student(){	
+	
+	}
+	String toString() {
+		double totalScore = assigmentsScore *0.4  + examScore * 0.6;
+		
+		
+		return 
+	}
+	
+	
+	
+	
+}

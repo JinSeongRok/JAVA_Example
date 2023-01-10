@@ -1,0 +1,13 @@
+package TestProblem;
+
+public class test3_9 {
+
+	public static void main(String[] args) {
+		char ch = 'z';
+		boolean b = ('A'== 'Z' && 'a' =='z');
+		
+		System.out.println(b);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class CalculatorExample {
+
+	public static void main(String[] args) {
+		// Calculator 객체 생성
+		Calculator myCalc = new Calculator();
+		
+		//리턴 값이 없는 powerOn() 메소드 호출
+		myCalc.powerOn();
+
+	}
+
+}

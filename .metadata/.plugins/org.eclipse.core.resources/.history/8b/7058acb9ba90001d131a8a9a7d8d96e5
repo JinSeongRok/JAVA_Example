@@ -1,0 +1,23 @@
+
+public class Test1 {
+
+	int sum(int ...values) {
+		int totalsum = 0;
+
+		for(int i=0; i<values.length; i++) {
+			totalsum += values[i];
+
+		}
+		return totalsum;		
+	}
+	double avg(int ...values) {
+		double avg = 0;
+		int totalsum =0;
+		for(int i=0; i<values.length; i++) {
+			totalsum += values[i];
+		}
+		avg = (double)totalsum / values.length;
+	}
+}
+
+	

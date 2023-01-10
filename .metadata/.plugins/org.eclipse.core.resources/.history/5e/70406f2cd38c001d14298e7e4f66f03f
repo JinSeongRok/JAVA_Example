@@ -1,0 +1,14 @@
+package TestProblem;
+
+public class test3_10 {
+
+	public static void main(String[] args) {
+		char ch = 'A';
+		
+		char lowerCase = (ch < 97) ? (ch <65) : ch;
+		
+		System.out.println("ch =" + ch);
+		System.out.println("ch to lowerCase : "+ lowerCase);
+	}
+
+}

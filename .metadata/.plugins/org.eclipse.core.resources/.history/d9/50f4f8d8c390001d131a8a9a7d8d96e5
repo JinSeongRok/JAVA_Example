@@ -1,0 +1,15 @@
+
+public class Student {
+	String name ;
+	int assigmentsScore ;
+	int examScore;
+	
+	Student(){
+		this("¼±³²", 91, 84);
+		
+	
+	}
+	
+	
+	
+}

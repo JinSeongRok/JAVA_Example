@@ -1,0 +1,17 @@
+
+public class Test1_1 {
+
+	public static void main(String[] args) {
+	
+		computer myCom = new computer();
+		
+		int[] values = {10, 20, 30, 40, 50};
+		int result = myCom.sum(values);
+		System.out.println("ÃÑÇÕ: " +result);
+		
+		double result2 = myCom.avg(values);
+		System.out.println("ÃÑ Æò±Õ: " + avg);
+
+	}
+
+}

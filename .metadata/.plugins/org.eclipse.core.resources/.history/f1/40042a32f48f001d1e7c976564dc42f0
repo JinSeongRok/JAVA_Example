@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("행의 크기 : ");
+		System.out.println("0열의 크기 : ");
+		System.out.println("1열의 크기 : ");
+		System.out.println("2열의 크기 : ");
+		System.out.println("3열의 크기 : ");
+
+
+	}
+
+}

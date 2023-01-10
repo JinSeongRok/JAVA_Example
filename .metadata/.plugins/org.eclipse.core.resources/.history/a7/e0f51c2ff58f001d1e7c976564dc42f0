@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int colNum;
+		int rowNum;
+		char[][] arr;
+		char ch = 'a';
+		
+		System.out.print("행의 크기 : ");
+		colNum = scan.nextInt();
+		for(int rowNum = 0; rowNum < arr.length; rowNum++) {
+			for(int colNum = 0; colNum<arr[row].length; colNum++)
+		}
+		
+		
+		System.out.print(rowNum + "의 크기 : ");
+		
+		
+		
+		
+
+	}
+
+}
