@@ -8358,3 +8358,26 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-01-10 19:00:45.059
+!MESSAGE Could not delete file C:\javawork\JAVA20230105\.git\objects\00\c5f062db8e61c80bb695aa707aab378d711509
+!STACK 0
+java.io.IOException: Could not delete file C:\javawork\JAVA20230105\.git\objects\00\c5f062db8e61c80bb695aa707aab378d711509
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:214)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:164)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:166)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:166)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.deleteRepositoryContent(RemoveCommand.java:258)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.access$8(RemoveCommand.java:238)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand$2.runInWorkspace(RemoveCommand.java:180)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: C:\javawork\JAVA20230105\.git\objects\00\c5f062db8e61c80bb695aa707aab378d711509
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:206)
+	... 8 more
